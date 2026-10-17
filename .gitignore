@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+
+# CMake build directories
+plugin/build/
+plugin/cmake-build-*/
+build/
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.matplotlib-cache/
+
+# Training data and outputs (recordings are fetched from a GitHub Release, see training/README.md)
+training/data/audio/
+training/results/
+training/runs/
+*.wav
